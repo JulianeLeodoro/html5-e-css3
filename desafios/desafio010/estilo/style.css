@@ -1,0 +1,52 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'idroid' ;
+    src: url('../pacote-projeto-d010/fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-color:#69A660;
+}
+header{
+    background-image: linear-gradient(to bottom,#247329,#014017);
+    height: 200px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.259);
+
+}
+h1#principal{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: #014017;
+    font-family: 'idroid',Arial, Helvetica, sans-serif;
+}
+h2{
+    background-image: linear-gradient(to right, #69A660, #69a66019 );
+    color:#014017;
+    font-family:'idroid', Arial, Helvetica, sans-serif;
+}
+
+nav>a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+    padding-left: 15px;
+}
+
+main{
+    background-color:white;
+    width: 800px;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(11, 11, 11, 0.678);
+    border-radius: 10px;
+}
+footer{
+    background-color:#014017 ;
+    color: #69A660;
+    text-align: center;
+}
