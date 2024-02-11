@@ -1,0 +1,306 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: #0F406B;
+}
+
+header{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: space-evenly;
+    height: 90px;
+    z-index: 500;
+    position: relative;
+}
+
+header h2{
+    font-size: 32px;
+    max-width: 330px;
+    color: #ffffff;
+    margin: 12px 0px;
+    
+    
+}
+
+h2, a{
+    font-family: 'Ubuntu Condensed', sans-serif;}
+    
+
+a.cabecalho{
+    background-color: #5FAC56;
+    border:2px solid #B6ED73;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #ffffff;
+    height: 32px;
+    margin-top: 12px;
+    width: 128px;
+    font-size: 22px;
+    padding: 16px;
+}
+
+main{
+    background-color: #1D6699;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+main img{
+    top:0;
+    margin-top: -7.5%;
+}
+
+.login{
+    display: flex;
+    text-align: center;
+    background-color: #144D73;
+    border-radius: 4px;
+    padding: 32px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.login > div{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    width: 256px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 18px;
+}
+button:hover{
+    cursor: pointer;
+}
+
+
+.facebook{
+    background-color: #4166B2;
+    color: #ffffff;
+    padding: 12px 0px;
+    margin: 12px 12px 12px 0px;
+    border-radius: 4px;
+    border: 2px solid #6A8AD3;
+}
+
+.google:hover, .facebook:hover{
+    background-color: #369CDE;
+}
+
+.google{
+    background-color: #4485F4;
+    color: #ffffff;
+    padding: 12px 0px;
+    margin: 0px 12px 12px 0px;
+    border-radius: 4px;
+    border:2px solid #4166B2;
+}
+
+.apple{
+    padding: 12px 0px; 
+    margin: 0px 12px 0px 0px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border:2px solid #D7D7D7;
+}
+.apple:hover{
+    background-color: #DFDFDF;
+}
+.vamosla{
+    background-color:  #1D6699;
+    color: #ffffff;
+    padding: 12px 0px;
+    margin: 0px 12px 12px 0px;
+    border-radius: 4px;
+    border: 2px solid #53BDF9;
+    width: 250px;
+    margin: 12px 0px 12px 12px;
+}
+.vamosla:hover{
+    background-color: #369CDE;
+}
+.emailsenha{
+    text-align: center;
+}
+.esquecisenha{
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+    padding-top: 12px;
+}
+
+input{
+    margin: 12px 0px 0px 12px;
+    padding: 8px;
+    width: 230px;
+    border: 2px solid #9EBECC;
+    border-radius: 4px;
+    background-color: #CCD8DF;
+    color: #888888;
+    font-size: 16px;
+}
+main p{
+    color: #ffffff;
+}
+
+.opcoes{
+    background-color:#E6F0F5;
+}
+
+.opcoes ul{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    padding: 20px 0px;
+    list-style: none;
+}
+
+.opcoes li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.opcoes li img{
+    margin-top: 10px;
+}
+
+.opcoes ul a{
+    color: #0C3A65;
+    padding-right: 64px;
+}
+.opcoes:hover{
+    color{
+        
+    }
+}
+
+.atualizacoes{
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+h1, h3{
+    color: #ffffff;
+}
+
+h1{
+    margin:32px
+}
+
+.atualizacoes li{
+    list-style: none;
+    padding:16px 0px;
+    display: flex;
+}
+
+.atualizacoes ul{
+    padding-top: 64px;
+    columns: 2;
+}
+
+div.noticia{
+    max-width:256px;
+    margin: 12px;
+}
+.noticiasgerais{
+    margin-left: 384px;
+}
+.imagemnoticias li img{
+    width: 120px;
+    height: 120px;
+}
+.descricao{
+    color: #4CB9EA ;
+    text-align: justify;
+}
+
+.data{
+    color: #958983;
+    margin-left: 12px;
+}
+
+span{
+    color: white;
+}
+
+.desafio{
+    width: 88%;
+    background-color: #721D19;
+    margin-left: 32px;
+}
+
+.figura {
+    background-image: url('https://images.habbo.com/web_images/habbo-web-articles/83b2ef3b-5362-4c8c-a0bb-5fb153ac0bc8.png');
+    background-repeat: no-repeat;
+    height: 301px;
+}
+
+h1.principal{
+    margin-left: 12px;
+    padding-top: 12px;
+    max-width: 256px;
+}
+
+.dicas{
+    background-color: #1B6395;
+    max-width: 280px;
+    height: 230px;
+    border-radius: 4px;
+}
+
+.campanha{
+    margin-left: 12px;
+    max-width: 256px;
+    color: #ffffff;
+    padding-top: 12px;
+}
+
+.guia{
+    background-color: #1B6395;
+    max-width: 280px;
+    height: 230px;
+    margin-top: 32px;
+    border-radius: 4px;
+}
+
+h4{
+    padding: 8px;
+    color: #ffffff;
+    background-color: #0E3955;
+    font-size: 18px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    border-radius: 4px 4px 0px 0px;
+    text-align: center;
+}
+
+.global{
+    display: flex;
+}
+
+.adicional{
+    margin-top: 101px;
+    margin-left: 101px;
+
+}
+.conteudodicas{
+    padding: 12px;
+    color: #7ECAEE;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 18px;
+}
+footer{
+    background-color: #031726;
+}
+.baixo{
+    color: #425c73;
+    font-size: 12px;
+}
