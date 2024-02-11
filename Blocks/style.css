@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+
+body {
+    background-color: rgb(245, 243, 247);
+}
+
+* {
+    font-family: 'Open sans', sans-serif;
+}
+
+header {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 12px;
+    margin: -8px -4px 128px -4px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.voltar {
+    text-decoration: none;
+    color: #000000;
+}
+
+.voltar img {
+    width: 20px;
+}
+
+h3 {
+    padding-left: 12px;
+}
+
+main {
+    background-color: #ffffff;
+    padding: 32px;
+    margin: auto;
+    border: 1px solid rgb(204, 204, 204);
+    width: 350px;
+    height: 460px;
+}
+
+main input {
+    border-radius: 5px;
+    color: rgb (204, 204, 204);
+    height: 36px;
+    width: 339px;
+    border: 1px solid rgb(204, 204, 204);
+    font-size: 16px;
+    padding-left: 10px;
+    margin-bottom: 12px;
+}
+
+main h1 {
+    font-size: 22px;
+    margin: 2px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+main a {
+    color: #000000;
+    font-size: 14px;
+}
+
+.dica {
+    font-size: 13px;
+    margin: 6px 0px 6px 0px;
+}
+
+main button {
+    background-color: #CCCCCC;
+    font-weight: bolder;
+    height: 42px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 12px 0px;
+}
+
+main button a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+button:hover {
+    background-image: linear-gradient(to right, #BC69E2, #D265CE);
+    cursor: pointer;
+}
+
+div#traco {
+    background-image: linear-gradient(to right, #BC69E2, #D265CE);
+    height: 6px;
+    width: 36px;
+    border-radius: 3px;
+
+}
+
+.baixo {
+    padding: 10px 0px;
+}
