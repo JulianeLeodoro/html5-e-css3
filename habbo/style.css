@@ -297,6 +297,11 @@ span{
     height: 301px;
 }
 
+.figura span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 h1.principal{
     margin-left: 12px;
     padding-top: 12px;
