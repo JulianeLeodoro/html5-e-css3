@@ -62,8 +62,9 @@ main img{
     text-align: center;
     background-color: #144D73;
     border-radius: 4px;
-    padding: 32px;
+    padding: 16px 30px;
     font-family: 'Ubuntu Condensed', sans-serif;
+    margin-left: -130px;
 }
 
 .login > div{
@@ -75,9 +76,26 @@ button{
     width: 256px;
     font-family: 'Ubuntu Condensed', sans-serif;
     font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    height: 45px;
+
 }
+
 button:hover{
     cursor: pointer;
+}
+button img{
+    margin-left: -100px;
+    height: 25px;
+    width: 25px;
+}
+button span{
+    color: #ffffff;
+    margin-left: -170px;
+}
+button .loginspan{
+    color: black;
 }
 
 
@@ -242,6 +260,12 @@ div.noticia{
     width: 120px;
     height: 120px;
 }
+
+.imagemnoticias span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .descricao{
     color: #4CB9EA ;
     text-align: justify;
@@ -324,6 +348,11 @@ h4{
 
 }
 
+.adicional span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 footer{
     background-color: #031726;
     display: flex;
@@ -340,7 +369,7 @@ footer{
 }
 
 .maisopcoes a{
-    color: #7ecaee;
+    color: #a1b5c8;
     padding: 12px;
 }
 
@@ -349,7 +378,7 @@ footer{
 }
 
 .maisopcoes{
-    color: #7ecaee;
+    color: #a1b5c8;
 }
 
 .ferramentas{
@@ -379,4 +408,8 @@ footer{
 }
 .sulake{
     padding-left: 32px;
+    padding-top: 32px;
 }
+
+
+
