@@ -57,6 +57,10 @@ main img{
     margin-top: -7.5%;
 }
 
+*:focus{
+    outline: none;
+}
+
 .login{
     display: flex;
     text-align: center;
@@ -379,6 +383,7 @@ footer{
 
 .maisopcoes{
     color: #a1b5c8;
+    line-height: 25px;
 }
 
 .ferramentas{
