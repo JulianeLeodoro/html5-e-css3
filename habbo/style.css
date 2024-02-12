@@ -22,7 +22,8 @@ header h2{
     max-width: 330px;
     color: #ffffff;
     margin: 12px 0px;
-    
+    font-weight: normal;
+    text-align: center;
     
 }
 
@@ -170,6 +171,10 @@ main p{
     align-items: center;
 }
 
+.opcoes li:hover{
+    filter: grayscale(200);
+}
+
 .opcoes li img{
     margin-top: 10px;
 }
@@ -178,22 +183,10 @@ main p{
     color: #0C3A65;
     padding-right: 64px;
 }
-.opcoes:hover{
-    color{
-        
-    }
-}
+
 
 .atualizacoes{
     font-family: 'Ubuntu Condensed', sans-serif;
-}
-
-h1, h3{
-    color: #ffffff;
-}
-
-h1{
-    margin:32px
 }
 
 .atualizacoes li{
@@ -207,12 +200,43 @@ h1{
     columns: 2;
 }
 
+h1, h3{
+    color: #ffffff;
+    font-weight: normal;
+}
+h3{
+    margin-top: -16px;
+    font-size: 20px;
+}
+
+h1{
+    margin:32px
+}
+.maisnoticias {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.maisnoticias a{
+    color: #ffffff;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: end;
+}
+
+.maisnoticias > img{
+    padding-top: 12px;
+    padding-left: 8px;
+}
+
 div.noticia{
     max-width:256px;
     margin: 12px;
 }
 .noticiasgerais{
     margin-left: 384px;
+    padding-bottom: 64px;
 }
 .imagemnoticias li img{
     width: 120px;
@@ -221,6 +245,7 @@ div.noticia{
 .descricao{
     color: #4CB9EA ;
     text-align: justify;
+    padding-top: 12px;
 }
 
 .data{
@@ -257,6 +282,13 @@ h1.principal{
     border-radius: 4px;
 }
 
+.conteudodicas{
+    padding: 12px;
+    color: #7ECAEE;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 18px;
+}
+
 .campanha{
     margin-left: 12px;
     max-width: 256px;
@@ -291,16 +323,60 @@ h4{
     margin-left: 101px;
 
 }
-.conteudodicas{
-    padding: 12px;
-    color: #7ECAEE;
-    font-family: 'Ubuntu Condensed', sans-serif;
-    font-size: 18px;
-}
+
 footer{
     background-color: #031726;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 32px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-weight: normal;
 }
+
 .baixo{
     color: #425c73;
     font-size: 12px;
+    padding-top:8px;
+}
+
+.maisopcoes a{
+    color: #7ecaee;
+    padding: 12px;
+}
+
+.maisopcoes a:hover{
+    text-decoration: underline;
+}
+
+.maisopcoes{
+    color: #7ecaee;
+}
+
+.ferramentas{
+    padding-left: 32px;
+    max-width: 900px;
+    padding-top: 32px;
+
+}
+
+.redessociais p{
+    color: #7ecaee;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 12px;
+}
+
+.redessociais ul li{
+    list-style: none;
+    padding: 0px 8px;
+}
+
+.redessociais ul{
+    display: flex;
+}
+.youtube{
+    margin:2px;
+}
+.sulake{
+    padding-left: 32px;
 }
