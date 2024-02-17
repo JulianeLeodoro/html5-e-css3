@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'pluto' ;
+    src: url(fontes/pluto-sans-font-family-1708107362-0/HvDTrial_PlutoSans-ExtraLight-BF648692eacd4e2.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --cor0: #ffffff;
+    --cor1: #E6548B;
+    --cor3: #000000;
+    --cor4: #3D3C4C;
+    --cor5: #BDBDBD;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "pluto", Arial, Helvetica, sans-serif;
+}
+
+
+h5{
+    color: var(--cor4);
+    font-size: 12px;
+}
+
+.faixa_cupom{
+    background-color: var(--cor1);
+    display: flex;
+    justify-content: center;
+}
+
+
+.logo_marisa ul{
+    display: flex;
+    list-style: none;
+}
+
+.logo_marisa li{
+    padding: 12px;
+}
+
+img.logo_principal{
+    width: 70px;
+    height: 15px;
+}
+
+img.logo_principal:hover{
+    cursor: pointer;
+}
+
+.logo_principal_borda{
+    background-color: var(--cor0);
+}
+
+img.logo_modaintima{
+    width: 125.19px;
+    height: 15px;
+}
+
+img.logo_modaintima:hover{
+    cursor: pointer;
+}
+
+nav.opcoes_cliente{
+    display: flex ;
+    background-color: var(--cor3);
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 1px;
+}
+
+.opcoes_cliente a{
+    text-decoration: none;
+    color: var(--cor0);
+    padding: 12px;
+}
+
+a.opcoes_cartoes{
+    background-color: var(--cor1);
+    border-radius: 16px;
+    padding: 4px 16px;
+}
+
+.logo_e_cadastro{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 32px 0px;
+}
+
+.logo_nova{
+    width: 175px;
+    height: 38.48px;
+}
+
+.logo_nova:hover{
+    cursor: pointer;
+}
+
+.pesquisar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pesquisar img{
+    background-color: var(--cor1);
+    width: 16px;
+    height: 16px;
+    padding: 7px 12px;
+}
+
+.pesquisar img:hover{
+    cursor: pointer;
+}
+
+.pesquisar input{
+    padding: 6px 12px;
+    width: 384px;
+    margin-left: -50%;
+    border: 1px solid var(--cor5);
+}
+
+.entrar_cadastrar{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-left: -10%;
+}
+
+.entrar_cadastrar:hover{
+    cursor: pointer;
+}
+
+.entrar_cadastrar img{
+    border-radius: 50%;
+}
+
+.entrar_cadastrar a{
+    padding-left: 12px;
+}
+
+.sacola{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 150px;
+    margin-left: -10%;
+}
+
+.sacola:hover{
+    cursor: pointer;
+}
+
+.sacola h5{
+    padding-left: 12px;
+}
+
+nav.opcoes_navegacoes{
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor0);
+}
+
+.opcoes_navegacoes:hover{
+    cursor: pointer;
+}
+
+nav.opcoes_navegacoes a{
+    padding: 12px 32px;
+    font-weight: bold;
+    color: var(--cor4);
+}
+
+nav.opcoes_navegacoes a:hover{
+    background-color: var(--cor1);
+}
